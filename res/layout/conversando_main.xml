@@ -1,0 +1,47 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:screenOrientation="landscape" 
+	android:configChanges="orientation|keyboardHidden"
+    >
+	 	
+           
+        <include 
+            layout="@layout/header"
+            android:layout_width="match_parent"/>				
+            
+   
+	<TableRow
+           android:id="@+id/tableRow2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" >
+
+		<com.amalulla.conversando.ViewPager_widget
+		    android:id="@+id/viewPagerTabs"
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="9" >
+		</com.amalulla.conversando.ViewPager_widget>
+   		
+   		<include 
+   		    layout="@layout/attach"
+   		    android:layout_weight="1"
+   		    android:layout_width="wrap_content"/>
+		</TableRow>
+
+	<ScrollView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+
+        	<TableLayout
+                 android:id="@+id/list"
+                 android:layout_width="match_parent"
+                 android:layout_height="417dp"
+                 android:orientation="vertical" >
+          	</TableLayout>
+   
+ 	</ScrollView>
+
+
+</TableLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stickyviewpager="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.67"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/tab1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@color/tabs_button"
+            android:text="@string/tab1" />
+
+        <Button
+            android:id="@+id/tab2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@color/white_button"
+            android:text="@string/tab2" />
+
+        <Button
+            android:id="@+id/tab3"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@color/white_button"
+            android:text="@string/tab3" />
+
+        <Button
+            android:id="@+id/tab4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@color/white_button"
+            android:text="@string/tab4" />
+
+        <Button
+            android:id="@+id/tab5"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@color/white_button"
+            android:text="@string/tab5"/>
+    </LinearLayout>
+
+    <ch.bretscherhochstrasser.android.stickyviewpager.StickyViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools" 
+   	    xmlns:stickyviewpager="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.05"
+        stickyviewpager:stickyPositions="0,1"
+        stickyviewpager:swipeMarginWidth="1000dp" >
+    </ch.bretscherhochstrasser.android.stickyviewpager.StickyViewPager>
+
+
+
+</LinearLayout>

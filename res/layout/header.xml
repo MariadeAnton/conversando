@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+    
+    
+    <com.amalulla.conversando.ChipsActivity
+                android:id="@+id/input_text"
+               	android:layout_width="0dp"
+                android:layout_weight="700"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="@string/phrase"
+        		android:inputType="textMultiLine|textCapSentences" />
+
+          <Button
+            android:id="@+id/delete_button"
+       		android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="60" 
+            android:drawableLeft="@android:drawable/ic_menu_close_clear_cancel"
+            android:background="@color/usual_button"
+             />
+
+</LinearLayout>

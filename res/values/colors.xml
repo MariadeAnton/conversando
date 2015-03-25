@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  	<color
+        name="dark_orange"
+        >#F44813</color>
+  	 <color
+        name="light_orange"
+        >#FA6900</color>
+  	 <color
+        name="dark_grey"
+        >#B6B6B6</color>
+  	 <color
+        name="light_grey"
+        >#C4CAC3</color>
+  	 <color
+        name="dark_purple"
+        >#E56982</color>
+  	 <color
+        name="light_purple"
+        >#F87A92</color>
+  	 <color
+        name="dark_pink"
+        >#D0224A</color>
+  	 <color
+        name="light_pink"
+        >#E32551</color>
+  	 <color
+        name="tombstone"
+        >#4C4C4C</color>
+  	 <color
+        name="pencil"
+        >#3C3C3D</color>
+  	 
+  	 <color
+        name="dark_usual"
+        >#3F4E53</color>
+  	 <color
+        name="light_usual"
+        >#607C88</color>
+  	 <color
+        name="dark_speak"
+        >#004864</color>
+  	 <color
+        name="light_speak"
+        >#00587A</color>
+  	      
+  	 <color
+        name="dark_tabs"
+        >#726C6C</color>
+  	 <color
+        name="light_tabs"
+        >#A19B9B</color>
+    
+
+
+</resources>
+

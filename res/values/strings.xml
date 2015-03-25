@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Conversando</string>
+    
+  <!-- Buttons Strings -->    
+
+  <!-- 1st keyboard -->     
+    <string name="what">Qué</string>
+    <string name="think">Pienso</string>
+    <string name="need">Necesito</string>
+    <string name="want">Quiero</string>
+    <string name="hope">Espero</string>
+    <string name="be">Estoy</string>
+    <string name="have">Tengo</string>
+    
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    
+
+    <string name="who">Quién</string>
+    <string name="mi">a mí</string>
+    <string name="you">tu</string>
+    <string name="all">todos</string>
+    <string name="nobody">nadie</string>
+    <string name="it">lo</string>
+    <string name="know">sé</string>
+
+    <string name="when">Cuándo</string>
+    <string name="is">es</string>
+    <string name="he">el</string>
+    <string name="she">ella</string>
+    <string name="me">me</string>
+    <string name="hurt">duele</string>
+    <string name="like">gusta</string>
+    
+  	<string name="cuanto">cuanto</string>
+    <string name="few">poco</string>
+    <string name="very">muy</string>
+    <string name="much">mucho</string>
+    <string name="nothing">nada</string>
+    <string name="more">más</string>
+    <string name="less">menos</string>
+
+    <string name="where">Dónde</string>
+    <string name="here">aquí</string>
+    <string name="in">en</string>
+    <string name="bring">traer</string>
+    <string name="come">venir</string>
+    <string name="go">ir</string>
+    <string name="make">hacer</string>
+
+   	
+ <!-- Action strings -->   
+    <string name="save">Guarda</string>
+    <string name="speak">Habla ahora!</string>
+    <string name="delete">X Borra</string>
+    <string name="talk">Habla Ahora</string>
+    
+    <string name="action_about">Acerca de</string>
+    <string name="action_help">Ayuda</string>
+    <string name="action_delete">Borrar</string>
+    <string name="action_settings">Opciones</string>
+    <string name="action_keyboard">Teclado</string>
+    <string name="cancel">Cancelar</string>
+    <string name="send">Guardar</string>
+    <string name="erase">Borrar</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Strings Related to settings -->
+    <string name="phrase">Toca una palabra para escribirla aquí</string> 
+    <string name="error_null_message">Introduzca datos en los campos</string>
+    <string name="error_null_title">Error</string>
+    <string name="dialog_title_savephrase">Elija la categoría:</string>
+    <string name="dialog_message_savephrase">Introduzca la nueva frase</string>
+    <string name="title_activity_delete_dialog">Borrar</string> 
+
+    <!-- Strings Social Buttons -->    
+    <string name="hi">hola</string>
+    <string name="tal">Cómo estás</string>
+    <string name="thanks">Gracias</string>
+    <string name="fine">bien</string>
+    <string name="please">Por favor</string>
+    <string name="sorry">Perdona</string>
+    <string name="maybe">No sé</string>
+    <string name="ok">Vale</string>
+    <string name="care">Adios</string>
+
+    <!-- Strings for Tabs -->  
+    
+    <string name="tab1">Básico</string>
+    <string name="tab2">Extendido</string>
+    <string name="tab3">Frecuente</string>
+    <string name="tab4">Útil</string>
+    <string name="tab5">Varios</string>
+</resources>
