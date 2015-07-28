@@ -1,0 +1,11 @@
+language: android
+
+android:
+  components:
+    - build-tools-21.1.2
+    - android-16
+    - extra-google-google_play_services
+    - extra-google-m2repository
+
+script:
+  ./gradlew build
